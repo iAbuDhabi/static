@@ -1,0 +1,17 @@
+{% extends "/_layouts/_default.html" %}
+
+{% block globalVars %}
+    {% set id = 'about-page' %}
+    {% set title = 'About page' %}
+    {% set currentPage = 'about' %}
+{% endblock %}
+
+{% block main %}
+<div class="container">
+    <h1>About</h1>
+    <p>This is the About page</p>
+    <p>Template {{ template }} [{{ currentLang }}]</p>
+    <p>{{ i18n.helloword }}</p>
+</div>
+{% endblock %}
+

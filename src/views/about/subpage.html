@@ -1,0 +1,17 @@
+{% extends "/_layouts/_default.html" %}
+
+{% block globalVars %}
+    {% set id = 'about-subpage-page' %}
+    {% set title = 'About sub page' %}
+    {% set currentPage = 'about-subpage' %}
+{% endblock %}
+
+{% block main %}
+<div class="container">
+    <h1>About Subpage</h1>
+    <p>This is the About subpage</p>
+    <p>Template {{ template }} [{{ currentLang }}]</p>
+    <p>{{ i18n.helloword }}</p>
+</div>
+{% endblock %}
+

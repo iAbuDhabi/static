@@ -1,0 +1,7 @@
+<ul class="langs">
+    {% for code, lang in languages %}
+    <li class="{{ currentLang == code ? 'active' : '' }}">
+        <a href="{{ route(currentPath, lang.dir) }}">{{ lang.name }}</a>
+    </li>
+    {% endfor %}
+</ul>

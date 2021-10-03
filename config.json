@@ -1,0 +1,16 @@
+{
+	"title": "xxxx",
+	"description": "xxxx",
+	"url": "http://xxxx.jaysalvat.com",
+  "analytics": "UA-111088-xx",
+  "languages": {
+    "en": {
+      "dir": "/",
+      "name": "English"
+    },
+    "fr": {
+      "dir": "/fr/",
+      "name": "Français"
+    }
+  }
+}
